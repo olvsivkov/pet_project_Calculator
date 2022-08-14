@@ -1,3 +1,4 @@
+gh-pages
   link to website: https://olvsivkov.github.io/pet_project_Calculator/
   
   Hello everyone This is one of the first home projects on my page. Of course it's a calculator! It is capable of performing simple mathematical operations with integers.
@@ -17,3 +18,4 @@ Technologies used: HTML, CSS, HTML
 - Калькулятор можно двигать по экрану. После перезагрузки страницы, он останется на месте. 
 
 Использованы технологии: HTML, CSS , HTML
+
