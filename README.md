@@ -1,3 +1,5 @@
+  link to website: https://olvsivkov.github.io/pet_project_Calculator/
+  
   Hello everyone This is one of the first home projects on my page. Of course it's a calculator! It is capable of performing simple mathematical operations with integers.
 
 - Dialing numbers is possible only from the on-screen keyboard. 
