@@ -24,7 +24,7 @@ function calcExpression() {
 }
 
 window.addEventListener("load", () => {
-    let localStorageItem = localStorage.getItem('result');
+    let localStorageItem = localStorage.getItem("result");
     if(localStorageItem !== null) userScreen.value =  localStorageItem;
 })
 
@@ -33,5 +33,5 @@ btnReset.addEventListener("click", calcReset)
 function calcReset() {
     userScreen.value = "";
     expression = "";
-    localStorage.clear();
+    localStorage.removeItem("result");
 }
