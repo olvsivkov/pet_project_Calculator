@@ -1,5 +1,7 @@
 body {
-    background: rgb(234, 233, 233);
+    background-image: url(./assets/bgi-stars.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .calculator {
@@ -12,21 +14,31 @@ body {
     top: 50px;
     left: 50px;
     box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+    padding-top: 35px;
+    opacity: 90%;
+    border-radius: 3px;
 }
 
-.userScren {
+.userScreen {
     width: 96%;
     height: 24px;
     font-size: 25px;
     text-align: right;
     direction: ltr;
     border: 1px solid grey;
+    border-radius: 3px;
 }
+
+.userScreen:focus {
+    color: black;
+  }
+  
 
 .buttons {
     margin-top: 5px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+
 }
 
 .btn {
@@ -64,9 +76,11 @@ body {
 }
 
 .text {
-    font-size: 0.8rem;
+    font-size: 1.1rem;
     font-family: verdana;
     padding-bottom: 5px;
     background-color: rgb(234, 233, 233);
+    opacity: 60%;
     text-align: center;
+    height: 1.5rem;
 }
